@@ -95,10 +95,6 @@ export default {
             }
         },
         getDate(date) {
-            // 2023-10-10T19:00:00.000Z to 2023-10-10 Monday 07.00 PM
-            // const d = new Date(date)
-            // const day = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu']
-            // return `${day[d.getDay()]} ${d.getHours()}.${d.getMinutes()}`
             return new Date(date).toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' })
         },
         getTextColor(agency) {
@@ -109,14 +105,6 @@ export default {
             this.ticket_id = ''
         }
     },
-    mounted() {
-        console.log(this.main_bg);
-        console.log(this.card_bg);
-        console.log(this.round_bg);
-    },
-    watch: {
-
-    }
 }
 </script>
 
