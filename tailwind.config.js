@@ -13,14 +13,14 @@ export default {
         'pink': '#F5167E',
 
         // SM
-        'sm-bg': '#F9DCE6',
+        'sm-bg': '#FCE1E6',
         'sm-card': '#EEE1FF',
-        'sm-round': '#FEABCF',
+        'sm-round': '#FFD0D9',
 
         // YG
         'yg-bg': '#FFFFFF',
         'yg-card': '#959595',
-        'yg-round': '#000000',
+        'yg-round': '#939393',
       },
       fontFamily: {
         'sans': ['Inter', 'sans-serif'],
